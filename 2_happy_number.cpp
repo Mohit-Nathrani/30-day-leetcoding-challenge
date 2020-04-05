@@ -9,11 +9,11 @@ public:
         return sum;
     }
     bool isHappy(int n) {
-		int cnt=0;
-		while(n!=1 && cnt<1000){
-			n=ssd(n);
-			cnt++;
-	    }
-         return (n==1);
+        int cnt=0;
+        while(n!=1 && cnt<1000){
+        	n=ssd(n);
+        	cnt++;
+        }
+        return (n==1);
     }
 };
